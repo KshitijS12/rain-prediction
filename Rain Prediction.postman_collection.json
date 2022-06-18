@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "60a4ab3c-47d1-4be7-9ef5-0639d18161df",
+		"name": "Rain Prediction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test Run",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Minimum Temperature",
+							"value": "19.0",
+							"type": "text"
+						},
+						{
+							"key": "Maximum Temperature",
+							"value": "27.0",
+							"type": "text"
+						},
+						{
+							"key": "Precipitation",
+							"value": "1.0",
+							"type": "text"
+						},
+						{
+							"key": "Evaporation",
+							"value": "5.0",
+							"type": "text"
+						},
+						{
+							"key": "Sunshine",
+							"value": "9.5",
+							"type": "text"
+						},
+						{
+							"key": "Wind Gust Speed",
+							"value": "69.0",
+							"type": "text"
+						},
+						{
+							"key": "Wind Speed at 9am",
+							"value": "18.0",
+							"type": "text"
+						},
+						{
+							"key": "Wind Speed at 3pm",
+							"value": "32.5",
+							"type": "text"
+						},
+						{
+							"key": "Humidity at 9am",
+							"value": "52",
+							"type": "text"
+						},
+						{
+							"key": "Humidity at 3pm",
+							"value": "54",
+							"type": "text"
+						},
+						{
+							"key": "Air Pressure at 9am",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "Cloud Cover at 9am",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "Cloud Cover at 3pm",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "Month",
+							"value": "Apr",
+							"type": "text"
+						},
+						{
+							"key": "Location",
+							"value": "Albury",
+							"type": "text"
+						},
+						{
+							"key": "Wind Gust Direction",
+							"value": "E",
+							"type": "text"
+						},
+						{
+							"key": "Wind Direction at 9am",
+							"value": "SSe",
+							"type": "text"
+						},
+						{
+							"key": "Wind Direction at 3m",
+							"value": "NNW",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/Predict_Rain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Predict_Rain"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
